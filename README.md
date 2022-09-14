@@ -1,8 +1,11 @@
 # Simple python app
 
-This is a standalone application you can run it using Docker and then access it at http://localhost:5000/
+This application display a list of messages.
+
+## Run it
+
+Start it using docker-compose. You can then access the page at http://localhost:5000
 
 ```
-docker build -t simple-python-app:dev .
-docker run -p 5000:5000 simple-python-app:dev 
+docker-compose up -d
 ```

@@ -5,6 +5,7 @@ services:
     container_name: mongo
     volumes:
       - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - mongo-data:/data/db
 
   app:
     build: .

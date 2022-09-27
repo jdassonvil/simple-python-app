@@ -8,6 +8,7 @@ MONGO_URI = os.getenv("MONGO_URI", "localhost")
 MONGO_PORT = os.getenv("MONGO_PORT", 27017)
 MONGO_DB_NAME = "simplon"
 
+
 def format_messages_list(message):
     html_text = "<ul>"
     for message in message:

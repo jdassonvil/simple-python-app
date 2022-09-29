@@ -11,6 +11,7 @@ MONGO_DB_NAME = "simplon"
 
 def format_messages_list(message):
     html_text = "<ul>"
+    foo = "bar"
     for message in message:
         html_text += "<li>{}</li>".format(message["text"])
     html_text += "</ul>"

@@ -16,6 +16,7 @@ def format_messages_list(message):
     html_text += "</ul>"
     return html_text
 
+
 # toto
 @app.route("/")
 def hello_world():

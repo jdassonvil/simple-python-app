@@ -16,7 +16,7 @@ def format_messages_list(message):
     html_text += "</ul>"
     return html_text
 
-
+# toto
 @app.route("/")
 def hello_world():
     mongodb_client = MongoClient(MONGO_URI, MONGO_PORT)
